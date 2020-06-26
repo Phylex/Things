@@ -4,12 +4,15 @@ wall_thickness = 3;
 depth = 100;
 height = 50;
 number_of_trays = 6;
+extra_label_height = 70;
+label_width = 30;
 union(){
 	for ( i = [0 : number_of_trays-1] ) {
 		union(){
 			translate([i*delta_x, -height, 0])cube([wall_thickness, height, depth]);
 			translate([i*delta_x, 0, 0])cube([delta_x+wall_thickness, wall_thickness, depth]);
 			translate([(i+1)*delta_x, -height, 0])cube([wall_thickness, height, depth]);
+			translate([i*delta_x, -height-extra_label_height, 0])cube([wall_thickness, height+extra_label_height, label_width]);
 		}
 	}
 	screw_tab_delta_x = number_of_trays * delta_x + wall_thickness;
