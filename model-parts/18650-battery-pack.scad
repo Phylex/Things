@@ -16,17 +16,26 @@ difference(){
 	]);
 	// translate everything within the box-walls
 	translate([wall_thickness, wall_thickness, wall_thickness]){
+		//this is the first opening to be able to solder in the cells
 		cube([2*cell_diameter+wall_thickness, solder_space, height-wall_thickness]);
+		//translate back to place the cells
 		translate([0, solder_space, 0]){
+			// left cell
 			_18650();
+			// right cell
 			translate([wall_thickness+cell_diameter, 0, 0])_18650();
 			translate([0, cell_length, 0]){
+				// here we cut out the middle bay
 				translate([0, 0, wall_thickness])cube([2*cell_diameter+wall_thickness, spacing+2*wall_thickness, height-2*wall_thickness]);
 				translate([0, wall_thickness, 0])cube([2*cell_diameter+2*wall_thickness, spacing, height-wall_thickness]);
 			}
+			// translate to place the rear cells
 			translate([0, cell_length+wall_thickness+spacing+wall_thickness, 0]){
+				//left cell
 				_18650();
+				//right cell
 				translate([wall_thickness+cell_diameter, 0, 0])_18650();
+				// rear soldering opening
 				translate([0, cell_length, 0]){
 					cube([2*cell_diameter+wall_thickness, solder_space, height-wall_thickness]);
 				}
