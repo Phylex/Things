@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.7456946in"
+   height="0.53328985in"
+   viewBox="0 0 44.340644 13.545562"
+   version="1.1"
+   id="svg8"
+   inkscape:version=""
+   sodipodi:docname="fahrwerks-bein-querschnitt.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3719"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="108.49126"
+     inkscape:cy="10.194783"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="in"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1916"
+     inkscape:window-height="1148"
+     inkscape:window-x="1922"
+     inkscape:window-y="1130"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3713"
+       originx="-0.57703596"
+       originy="-0.76628734" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.57703596,-282.68815)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 9.701532,295.67695 C 0,294.79487 0,292.59001 1.3320836,290.02548 c 1.3320836,-2.56453 3.9959891,-5.48871 8.7438234,-6.64073 4.747835,-1.15202 11.579596,-0.53218 19.948973,1.81187 8.369377,2.34405 18.276488,6.41229 13.528719,8.66686 -4.747769,2.25457 -24.150535,2.69554 -33.852067,1.81347 z"
+       id="path3717"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect3719"
+       inkscape:original-d="m 0,297 c 2.6458333e-4,-2.20513 2.6458333e-4,-4.40999 0,-6.61458 2.6641764,-2.92446 5.3280832,-5.84864 7.9917317,-8.77256 6.8320363,0.61958 13.6637973,1.23942 20.4952943,1.85953 9.907364,4.06796 19.814472,8.1362 29.721307,12.20469 C 38.805824,296.11779 19.403058,296.55876 0,297 Z"
+       sodipodi:nodetypes="cccccc" />
+  </g>
+</svg>
