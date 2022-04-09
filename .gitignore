@@ -1,2 +1,5 @@
 MiscParts/Catan/
 *.stl
+.owncloudsync.log
+.sync*
+ParaPrinterParts/
